@@ -1,1 +1,1 @@
-3.3#https://xxxx.net/myskin/skinpackage.tar
+3.3#https://raw.githubusercontent.com/popking159/skins/main/aglarepli/aglarepli.tar.gz
