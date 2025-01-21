@@ -4,7 +4,7 @@
 echo "------------------------------------------------------------------------"
 echo "              You are going to install Aglare-FHD                       "
 echo "------------------------------------------------------------------------"
-echo " removing the previous version of Aglare-FHD...      "
+echo "removing the previous version of Aglare-FHD... "
 sleep 2;
 if [ -d /usr/share/enigma2/Aglare-FHD ] ; then
     opkg remove enigma2-plugin-skins-aglare-fhd
@@ -14,8 +14,8 @@ else
     echo "You do not have previous version of Aglare-FHD"
 fi
 echo ""
-
 # Install curl if not already installed
+echo "Install curl if not already installed "
 opkg install curl
 sleep 2
 
