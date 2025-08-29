@@ -22,7 +22,7 @@ sleep 2
 #
 cd /tmp
 echo "Downloading Luka-FHD skin package..."
-curl -s -k -L "https://raw.githubusercontent.com/popking159/skins/main/lukaatv/lukaatv.ipk" -o /tmp/aglareatv.ipk
+curl -s -k -L "https://raw.githubusercontent.com/popking159/skins/main/lukaatv/lukaatv.ipk" -o /tmp/lukaatv.ipk
 if [ $? -ne 0 ]; then
     echo "Error downloading Luka-FHD"
     exit 1
