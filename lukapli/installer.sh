@@ -22,7 +22,7 @@ sleep 2
 #
 cd /tmp
 echo "Downloading Luka-FHD-PLI skin package..."
-curl -s -k -L "https://raw.githubusercontent.com/popking159/skins/main/lukaatv/lukapli.ipk" -o /tmp/lukaatv.ipk
+curl -s -k -L "https://raw.githubusercontent.com/popking159/skins/main/lukapli/lukapli.ipk" -o /tmp/lukapli.ipk
 if [ $? -ne 0 ]; then
     echo "Error downloading Luka-FHD-PLI"
     exit 1
@@ -32,7 +32,7 @@ sleep 1
 echo "Installing ...."
 opkg install --force-overwrite /tmp/lukapli.ipk
 if [ $? -ne 0 ]; then
-    echo "Error installing Luka-FHD"
+    echo "Error installing Luka-FHD-PLI"
     exit 1
 fi
 
