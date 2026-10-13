@@ -1,5 +1,5 @@
 {
     "version": "8.6",
     "changelog": "- اصدار جديد.\n- اضافة تشغيل ملفات مخزنة على الفلاش ميمورى , يلزم تحديد المسار من الاعدادات.",
-    "script_url": "https://raw.githubusercontent.com/popking159/aglareatv/main/myinstaller.sh"
+    "script_url": "https://raw.githubusercontent.com/popking159/skins/aglareatv/main/myinstaller.sh"
 }
