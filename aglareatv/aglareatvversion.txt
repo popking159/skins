@@ -1,1 +1,1 @@
-8.5#https://raw.githubusercontent.com/popking159/skins/main/aglareatv/aglareatv.ipk
+8.6#https://raw.githubusercontent.com/popking159/skins/main/aglareatv/enigma2-plugin-skins-aglare-fhd_8.6_all.ipk
