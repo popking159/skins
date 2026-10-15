@@ -1,5 +1,5 @@
 #!/bin/sh
-# wget -qO - https://raw.githubusercontent.com/popking159/skins/main/aglareatv/refs/heads/main/myinstaller.sh | /bin/sh
+# wget -qO - https://raw.githubusercontent.com/popking159/skins/refs/heads/main/aglareatv/myinstaller.sh | /bin/sh
 # ==============================================================================
 # Aglare-FHD Skin Installer for OpenATV / Enigma2
 # ==============================================================================
