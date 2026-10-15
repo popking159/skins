@@ -5,7 +5,7 @@
 
 PACKAGE_NAME="enigma2-plugin-skins-aglare-fhd"
 SKIN_DIR="/usr/share/enigma2/Aglare-FHD"
-IPK_URL="https://raw.githubusercontent.com/popking159/skins/main/aglareatv/aglareatv.ipk"
+IPK_URL="https://raw.githubusercontent.com/popking159/skins/main/aglareatv/enigma2-plugin-skins-aglare-fhd_8.6_all.ipk"
 TMP_IPK="/tmp/aglareatv.ipk"
 
 # Colors for terminal output
