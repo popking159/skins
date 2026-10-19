@@ -1,5 +1,6 @@
 {
-    "version": "8.6",
-    "changelog": "- اصدار جديد.\n- اضافة تشغيل ملفات مخزنة على الفلاش ميمورى , يلزم تحديد المسار من الاعدادات.",
-    "script_url": "https://raw.githubusercontent.com/popking159/skins/aglarepli/main/myinstaller.sh"
+    "version": "7.3",
+    "changelog": "• تحديث سكين Aglare-FHD-PLI بالكامل.\n• إضافة كيبورد مخصص وضبط شاشات التخصيص.\n• تحسين أداء التعرف على HDR / HLG وضبط ألوان القنوات.",
+    "script_url": "https://raw.githubusercontent.com/popking159/skins/main/aglarepli/myinstaller.sh",
+    "package_url": "https://raw.githubusercontent.com/popking159/skins/main/aglareatv/enigma2-plugin-skins-aglare-fhd_8.6_all.ipk"
 }
