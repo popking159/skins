@@ -23,15 +23,24 @@ echo "========================================================================"
 echo ""
 
 # 1. Clean previous installation to prevent obsolete file clashes
-if [ -d "$SKIN_DIR" ]; then
-    echo -e "${YELLOW}--> Removing previous version of Aglare-FHD-PLI...${NC}"
+echo -e "${YELLOW}--> Checking for previous versions and cleaning old remnants...${NC}"
+
+# Remove package if installed
+if opkg status "$PACKAGE_NAME" 2>/dev/null | grep -q "^Status:.*installed"; then
     opkg remove "$PACKAGE_NAME" --force-depends >/dev/null 2>&1
-    rm -rf "$SKIN_DIR" >/dev/null 2>&1
-    echo -e "${GREEN}--> Previous skin files cleaned.${NC}"
-else
-    echo -e "${BLUE}--> Fresh installation detected.${NC}"
 fi
 
+# Deep clean of all specified skin files, converters, and renderers
+rm -rf /usr/share/enigma2/Aglare-FHD-PLI > /dev/null 2>&1
+rm -rf /usr/lib/enigma2/python/Plugins/Extensions/Aglare > /dev/null 2>&1
+rm -rf /usr/lib/enigma2/python/Components/Aglare* > /dev/null 2>&1
+rm -rf /usr/lib/enigma2/python/Components/Converter/Aglare* > /dev/null 2>&1
+rm -rf /usr/lib/enigma2/python/Components/Renderer/Aglare* > /dev/null 2>&1
+rm -rf /usr/lib/enigma2/python/Components/Renderer/Agp* > /dev/null 2>&1
+rm -rf /usr/lib/enigma2/python/Components/Renderer/Agb* > /dev/null 2>&1
+rm -rf /usr/lib/enigma2/python/Components/Renderer/Agban* > /dev/null 2>&1
+
+echo -e "${GREEN}--> Cleanup complete.${NC}"
 echo ""
 
 # 2. Check / Install download tool (curl or wget)
